@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!----  Tailwind linked  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-----  CSS Linked  -->
+    <link rel="stylesheet" href="/style.css">
+
+    <!------  Boxicon icon link     -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  
+</head>
+<body>
+    <header>
+
+        <label for="Logo" class="Logo">Quick<span class="span">Funds</span></label>
+
+        <ul class="navList">
+            <li><a href="#home" class="active">home</a></li>
+            <li><a href="#service">services</a></li>
+            <li><a href="#how we work">how we work?</a></li>
+            <li><a href="#about">about us</a></li>
+        </ul>
+        <button data-btn="contact" class="contact-btn">contact us</button>
+
+        <div  class='bx bx-menu' id="menu-icon"></div>
+    </header>
+
+
+    <!---   HOME section    --->
+
+    <section id="home" class="home">
+
+        <div class="home-container">
+            <div>
+
+            <h1>Quick and Easy Loans for Your Financial Needs.</h1>
+            <p>Our loan services offer a hassle-free and streamlined borrowing experience, providing you with 
+                the funds you need in a timely manner to meet your financial requirements.
+            </p>
+            <button class="home-container-btn">get started</button>
+            </div>
+        </div>
+        <div class="home-img-container">
+            <img src="/img/illustartion.png" alt="and image">
+        </div>
+    </section>
+
+    <!---   SERVICE section    --->
+    <section class="service" id="service">
+        <h2>our service</h2>
+
+
+        <div>
+            <div class="service-container">
+
+                <div class="s-c-content">
+                    <img src="/img/Vector.png" alt="">
+                    <h3>Personal loan</h3>
+                    <p>Personal loans provide
+                        borrowers with flexibility in how they use the funds.
+                    </p>
+                    <button class="s-btn">Apply now</button>
+                </div>
+    
+                <div class="s-c-content">
+                    <img src="/img/Group 5.png" alt="">
+                    <h3>Business loan</h3>
+                    <p>Business Loan Services provide
+                        financial assistance to businesses
+                        for various purposes..
+                    </p>
+                    <button class="s-btn">Apply now</button>
+                </div>
+    
+                <div class="s-c-content">
+                    <img src="/img/Group 6.png" alt="">
+                    <h3>Auto loan</h3>
+                    <p>Auto Loan Services provide 
+                        financing options for individuals
+                         businesses to purchase a vehicle.
+                    </p>
+                    <button class="s-btn">Apply now</button>
+                </div>
+            </div>
+        </div>
+
+        <button class="s-main-btn">view more</button>
+    </section>
+
+    <!------   how we work -section    -->
+
+    <section id="how we work" class="work-section">
+
+        <h2>how we work ?</h2>
+        <p>This is a process, how you can get loan for your self.</p>
+
+        <div class="work-container">
+
+            <div class="w-c-content">
+
+                <img src="/img/image 5.png" alt="an image" >
+
+                <div class="w-c-content-area">
+                    <h3>Application</h3>
+                    <p>The borrower submits a loan application to the bank, either in person,
+                         online, or through other channels. The application includes personal and financial information,
+                         such as income, employment history, credit score, and the purpose of the loan.
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="w-c-content">
+
+                <div class="w-c-content-area">
+                    <h3>Documentation and Verification</h3>
+                    <p>The bank requests supporting documents from the borrower, such as 
+                        identification proof, income statements,
+                         bank statements, and collateral details (if applicable). 
+                         The bank verifies the information provided to assess the borrower'
+                        s creditworthiness and eligibility for the loan.
+                    </p>
+
+                </div>
+                <img src="/img/Left_hand.png" alt="an image" >
+            </div>
+
+            <div class="w-c-content">
+
+                <img src="/img/Card.png" alt="an image" >
+
+                <div class="w-c-content-area">
+                    <h3>Credit Assessment</h3>
+                    <p>The bank conducts a credit assessment to evaluate the
+                         borrower's creditworthiness and ability to repay the 
+                        loan. This process involves analyzing the borrower's credit history, 
+                        income stability, debt-to-income ratio, and other factors.
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="w-c-content">
+
+                <div class="w-c-content-area">
+                    <h3>Loan Approval</h3>
+                    <p>If the borrower meets the bank's lending criteria and passes 
+                        the credit assessment, the loan is approved. The bank determines the loan
+                         amount, interest rate, repayment term, and any associated fees.
+                    </p>
+
+                </div>
+                <img src="/img/Speech_bubble.png" alt="an image" >
+            </div>
+        </div>
+    </section>
+
+    <!------  ABOUT section    -->
+    <section class="about-section" id="about">
+
+        <div class="about-F-container">
+            
+            <h2>about us</h2>
+            <img src="/img/Table.png" alt="an image" >
+
+            <p>QuickFunds- Your trusted financial partner for loans.
+                 Quick approvals, competitive rates, and personalized solutions t
+                 o meet your unique needs. Empowering you to achieve your financial goals. 
+                 Apply online today!
+            </p>
+        </div>
+
+        <form class="input-container">
+
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="firstname" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="number">Phone number</label>
+                <input type="text" name="number" id="number-input">
+            </div>
+
+            <div class="form-group">
+                <label for="name">Email address</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <button type="submit" class="btn">send</button>
+        </form>
+
+    </section>
+
+    <footer>
+
+        <div>
+            <h3>Quick <span>Funds</span></h3>
+            <p>Our mission is to empower individuals and 
+                businesses by providing them with the
+                financial resources they
+                need to achieve their goals.
+            </p>
+            <button><i class='bx bxl-facebook'></i></button>
+            <button><i class='bx bxs-phone-call'></i></button>
+            <button><i class='bx bxl-linkedin'></i></button>
+            <button><i class='bx bxl-instagram'></i></button>
+        </div>
+
+        
+            <div>
+                <h3>OUR SERVICES</h3>
+
+                <p>Personal loan</p>
+                <p>Business loan</p>
+                <p>Education loan</p>
+                <p>Auto loan</p>
+            </div>
+    </footer>
+
+    <div class="scroll-up">
+        <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+
+    
+
+    <script src="/index.js"></script>
+</body>
+</html>
